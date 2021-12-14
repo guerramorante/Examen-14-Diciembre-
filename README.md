@@ -2,8 +2,8 @@
 Este es el código de mi repositorio: https://github.com/guerramorante/Examen-14-Diciembre-.git
 
 Código Minion_Game:
-
-'import string
+'
+import string
 def listAlphabet():
         return list(string.ascii_lowercase)
 def minion_game(string):
@@ -27,12 +27,14 @@ def minion_game(string):
 
 if __name__ == '__main__' :
     s= (input)()
-    minion_game(s)'
+    minion_game(s)
+'    
 
 
 Código AjedrezUAX:
 
-'import math
+'
+import math
 import os
 import random
 import re
@@ -60,5 +62,5 @@ if __name__ == '__main__':
         r2.append(r2_item)
       result = verticalRooks(r1, r2)
       fptr.write(result + '\n')
-    fptr.close()'
-
+    fptr.close()
+'    
