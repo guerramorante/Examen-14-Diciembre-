@@ -2,7 +2,7 @@ import string
 def listAlphabet():
         return list(string.ascii_lowercase)
 def minion_game(string):
-    s = "Banana"
+    string = "Banana"
     vowels = "AEIOU"
     player1_Stuart = 0
     player2_Kevin = 0
